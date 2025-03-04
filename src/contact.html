@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="./img/profi-rm.png" alt="logo du dev" />
+        <ul>
+          <li><a href="./accueil.html">Accueil</a></li>
+          <li><a href="./service.html">Nos Services</a></li>
+          <li><a href="./contact.html">Nous Contacter</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <form>
+          <h1 class="form__h1">Contactez-moi</h1>
+          <p class="form__p">
+            Tu as un projet ou une question ? N'hésite pas à me contacter !
+          </p>
+          <div class="form__lab">
+            <label for="nom">Votre nom</label>
+            <input type="text" placeholder="gboko amara" id="name" />
+          </div>
+          <div class="form__lab">
+            <label for="email">Votre email</label>
+            <input
+              type="email"
+              placeholder="gboko.amara@gmail.com"
+              id="email"
+            />
+          </div>
+          <div class="form__lab">
+            <label for="nom">message</label>
+            <textarea
+              name="message"
+              placeholder="je vous remercie!"
+              id="message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn" id="sendBtn">Envoyer</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 GBOKO ANZOUMANAN AMARA. Tous droits réservés.</p>
+    </footer>
+    <script src="./script/main.js"></script>
+  </body>
+</html>

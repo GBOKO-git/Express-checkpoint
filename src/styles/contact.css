@@ -1,0 +1,48 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(56, 47, 47);
+}
+.container {
+  background-color: lightgray;
+  width: 500px;
+  height: 400px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: collumn;
+  border-radius: 1.5rem;
+  gap: 20px;
+}
+.form__h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form__p {
+  margin-bottom: 30px;
+  padding-left: 40px;
+}
+.form__lab {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+input,
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  width: 400px;
+}
+button {
+  margin-left: 200px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: rgb(41, 41, 163);
+  color: white;
+  cursor: pointer;
+  height: 30px;
+  width: 80px;
+}

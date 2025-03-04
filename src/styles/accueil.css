@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+}
+.dev_img {
+  background-image: url(/src/img/Dev_img.jpg);
+  background-color: #666060;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+.dev_info {
+  width: 500px;
+  height: 400px;
+  gap: 20px;
+  width: 50%;
+  height: 100%;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
