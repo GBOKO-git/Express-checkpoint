@@ -27,11 +27,11 @@
           </p>
           <div class="form__lab">
             <label for="nom">Votre nom</label>
-            <input type="text" placeholder="gboko amara" id="name" />
+            <input type="text" placeholder="gboko amara" id="name" required/>
           </div>
           <div class="form__lab">
             <label for="email">Votre email</label>
-            <input
+            <input required
               type="email"
               placeholder="gboko.amara@gmail.com"
               id="email"
@@ -42,7 +42,7 @@
             <textarea
               name="message"
               placeholder="je vous remercie!"
-              id="message"
+              id="message" required
             ></textarea>
           </div>
           <button type="submit" class="btn" id="sendBtn">Envoyer</button>
